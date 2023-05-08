@@ -12,6 +12,5 @@ def solution(n):
         if(n % i == 0):
             arr.add(i)
             arr.add(n // i)   
-            
     answer = sum(arr)
     return answer
