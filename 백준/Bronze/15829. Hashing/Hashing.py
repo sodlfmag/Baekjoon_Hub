@@ -13,4 +13,4 @@ answer = 0
 for i in range(len(arr)):
     answer += arr[i] * (31 ** i)
 
-print(answer)
+print(answer % 1234567891)
